@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import markerImage from '../assets/marker.png'
 
-export default function Entry({ img, title, country, googleMapsLink, dates, text }) {
+export default function Entry({img, country, googleMapsLink, title, dates, text}) {
   return (
     <article className='journal-entry'>
       <div className='main-image-container'>
